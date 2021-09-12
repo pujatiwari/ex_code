@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <h1>"CSS Effects"</h1>
+    
+
+      <style>
+          h1{
+            text-shadow: 1px 1px 5px red;
+          }
+      </style>
+   
+
+
+      <style>
+        @font-face{
+            font-family: myFirstFont;
+            src: url(OpenSans-Regular-webfont.woff);
+        }
+        *{
+            font-family:myFirstFont;
+        }
+      </style>
+
+   </head>
+
+<body>
+     <h2>The @font-face rule</h2>
+
+     <div>
+        John Smith was an English soldier, explorer, colonial governor, Admiral of New England, and author. He played an important role in the establishment of the colony at Jamestown, Virginia, the first permanent English settlement in America in the early 17th century.
+     </div>
+</body>
+
+      <body>
+          <h2>2d transformation</h2>
+       <div class="a">
+          <img src="img1.jpg" alt="img1" height="200px" width="200px">
+        </div>
+        <div class="b">
+          <img src="img2.jpg" alt="img2" height="200px" width="200px">
+        </div> 
+        <div class="c">
+          <img src="img3.jpg" alt="img3" height="200px" width="200px">
+        </div>
+        <div class="d">
+          <img src="img4.jpg" alt="img4" height="200px" width="200px">
+        </div>
+        <div class="e">
+          <img src="img5.jpg" alt="img5" height="200px" width="200px">
+        </div>
+
+          <style>
+              div.a{
+                  transform: rotate(30deg);
+                  margin: 150px 300px;
+              }
+              div.b{
+                  transform: rotate(60deg);
+                  margin: 150px 300px;
+              }
+              div.c{
+                  transform: rotate(30deg);
+                  margin: 150px 300px;
+              }
+              div.d{
+                  transform: rotate(30deg);
+                  margin: 150px 300px;
+              }
+              div.e{
+                  transform: rotate(60deg);
+                  margin: 150px 300px;
+              }
+          </style>
+
+       </body>
+
+       <body>
+
+            <h2>3d transformation</h2>
+            <div id="base">
+                <img src= "img6.jpg" alt="img6" height="200px" width="200px">
+            </div>
+            
+
+            <style>
+
+                #base{
+                    transform: rotateY(180deg);
+                    margin: 150px 300px;
+                }
+
+              
+            </style>
+
+    </body>
+
+    <body>
+        <h2>Column display</h2>
+        <div class= "col">
+            John Smith was an English soldier, explorer, colonial governor, Admiral of New England, and author. He played an important role in the establishment of the colony at Jamestown, Virginia, the first permanent English settlement in America in the early 17th century.
+        </div>
+
+        
+        
+        
+        <style>
+            .col{
+                column-width: 40px;
+                column-count: 4;
+            }
+        </style>
+         
+    </body>
+
+     
+
+</html>
